@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>apollo</title>
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: blueviolet;
+        }
+
+        li {
+            float: left;
+            border-right: 1px solid #bbb;
+        }
+
+
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .one {
+            position: relative;
+            margin-left: 600px;
+            margin-top: -70px;
+        }
+
+        .two {
+            position: relative;
+            margin-left: 1000px;
+            margin-top: -70px;
+            border: 2px solid black;
+            width: fit-content;
+
+        }
+
+        select {
+            border: none;
+        }
+
+        button:hover {
+            background-color: yellow;
+        }
+
+        .four {
+            margin-left: 400px;
+            margin-top: 10px;
+            border: 2px solid green;
+            width: fit-content;
+        }
+
+        .five {
+            border: 2px solid gray;
+            background-color: gray;
+            margin-left: 400px;
+            margin-top: 20px;
+            padding: 25px;
+
+        }
+        .six{
+            border: 1px solid gray;
+            margin-left: 400px;
+            margin-top: 10px;
+            padding: 10px;
+        }
+        input[type=text]{
+            margin: 20px;
+            width: 300px;
+        }
+        form{
+            margin: 20px;
+        }
+        .seven{
+            float: left;
+        }
+        seven.img{
+            margin-top: 30px;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li><a class="active" href="#home">Follow us on social media</a></li>
+        <li><a href="#" class="fb btn">
+                <i class="fa fa-facebook fa-fw"></i></a></li>
+        <li> <a href="#" class="twitter btn">
+                <i class="fa fa-twitter fa-fw"></i></a></li>
+        <li><a href="#" class="google btn"><i class="fa fa-google fa-fw">
+                </i></a></li>
+        <li style="float:right"><a href="#about">About</a></li>
+        <li style="float: right;"><a href="#news">Privacy policy</a></li>
+        <li style="float: right;"><a href="#contact">disclaimar</a></li>
+        <li style="float:right"><a href="#about">Contact</a></li>
+    </ul>
+    <img src="https://cdn.apollohospitals.com/dev-apollohospitals/2021/06/AH_logo_v-60c8405cbca3d.svg" width="70px"
+        height="70px">
+    <input type="text" id="name" class="name" list="search" placeholder="find hospital and location"
+        style="width: 300px; height: 40px; border: 2px solid black; margin-left: 150px; ">
+    <datalist id="search">
+        <option>chennai</option>
+        <option>madurai</option>
+        <option>salem</option>
+
+    </datalist>
+    <div class="one">
+        <img src="https://cdn.apollohospitals.com/dev-apollohospitals/assets/images/certify-award.jpg" width="150px"
+            style="margin-left: 20px;margin-top: 10px;">
+    </div>
+    <div class="two">
+        <button style="width: 200px; height: 60px;">toll free number</button>
+    </div>
+    <hr>
+
+    <select style="width: 300px;">
+        <option selected>patient care:</option>
+        <option>find a doctor</option>
+        <option>service execellence</option>
+        <option>pay online</option>
+    </select>
+    <select style="width: 300px;">
+        <option selected>Centers of execellence</option>
+        <option>cardiyallogy</option>
+        <option>spine</option>
+        <option>ICU</option>
+    </select>
+    <select style="width: 300px;">
+        <option selected>health information</option>
+        <option>disease and condition</option>
+        <option>test</option>
+        <option>medical and decoded</option>
+    </select>
+    <select style="width: 300px;">
+        <option selected>contanct us</option>
+        <option>post a query</option>
+        <option>book a online appointment</option>
+        <option>apollo lifeline</option>
+    </select>
+    <select style="width: 100px; background-color: yellowgreen;">
+        <option selected>corparte</option>
+        <option>management</option>
+        <option>carrer</option>
+        <option>award</option>
+    </select>
+    <hr>
+    <div class="three">
+        <img src="https://cdn.apollohospitals.com/dev-apollohospitals/2021/02/desktop-banner.jpg" width="1350px">
+    </div><br><br>
+    <div class="seven">
+    <iframe src="https://www.apollohospitals.com/privacy-policy/" frameborder="0" height="500px" width="400px"></iframe>
+    <h1 style="margin-top: 130px; margin-left: 90px; color:green;">Thank you!</h1>
+    </div>
+    <div class="four">
+        <h1>contact us</h1>
+        <p>Apollo Hospitals is always looking to make things easier for you. Our aim is to provide our customers with
+            the best medical facilities, constant care, and reliable support. If you would like to get in touch with a
+            doctor from a specific department, would like some specific information about the services we provide, or
+            just have a question for us, please fill up the Form given below and we will get back to you.</p>
+    </div>
+    <div class="five">
+        <label>Types Of query</label>&nbsp;&nbsp;&nbsp;
+        <input type="radio" name="name1" id="names">male &nbsp;&nbsp;&nbsp;
+        <input type="radio" name="name1" id="names"> female&nbsp;&nbsp;&nbsp;
+        <input type="radio" name="name1">feedback&nbsp;&nbsp;&nbsp;
+    </div>
+    <div class="six">
+    <form>
+        <label>First name:</label>
+        <input type="text" id="firatname" name="firatname" >
+        <label>last name:</label>
+        <input type="text" name="lastname" id="lastname"><br><br><br>
+        <label>Email id:</label>
+        <input type="text" name="emailid" id="emailid">
+        <label>Number:</label>
+        <input type="number" name="number" id="number" style="width: 300px;"><br><br>
+        <label>select city</label>
+        <select name="" id="" style="width: 300px;">
+            <option>chennai</option>
+            <option>madurai</option>
+            <option>thirchy</option>
+        </select>
+        <label>select hospital</label>
+        <select name="" id="" style="width: 300px;" >
+            <option>apollo</option>
+            <option>kavery</option>
+            <option>vaigai</option>
+        </select><br><br><br>
+        <label>meassage:</label><br>
+        <textarea style="width: 500px; height: 100px;">meassage</textarea><br><br>
+        <button style="color: green; width: 150px;">submit</button>
+    </form>
+    </div>
+  <video>
+      <
+  </video>
+</body>
+
+</html>
